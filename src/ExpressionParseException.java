@@ -1,0 +1,7 @@
+package src;
+
+class ExpressionParseException extends Exception {
+	public ExpressionParseException (String message) {
+		super(message);
+	}
+}
